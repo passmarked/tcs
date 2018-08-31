@@ -1,0 +1,36 @@
+{
+  "name": "@passmarked/tcs",
+  "version": "1.0.0",
+  "description": "Rules related to checking your terms/service on the page",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=testing mocha"
+  },
+  "author": "Passmarked <devops@passmarked.com>",
+  "keywords": [
+    "passmarked",
+    "dns",
+    "domain",
+    "dnssec",
+    "server",
+    "rules",
+    "tests",
+    "performance",
+    "security",
+    "standards"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "natural": "^0.6.1",
+    "passmarked": "*",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^2.1.0",
+    "coffeelint": "^1.9.2",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2",
+    "sinon-chai": "^2.7.0"
+  }
+}
